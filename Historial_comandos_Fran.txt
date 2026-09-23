@@ -1,0 +1,143 @@
+man man
+whoami
+dir
+mkdir
+mkdir --help
+cd
+cd..
+tree .
+tree --help
+apt install tree
+sudo apt install tree
+puto
+help
+man -k dir
+pwd
+cd..
+pwd --help
+id
+pwd
+mkdir pepe
+tree .
+apt install tree
+sudo apt install tree
+ls -la
+cd pepe
+echo pepest > archivo.txt
+ls -la
+cat --help
+cat -archivo
+cat -archivo.txt
+cat archivo.txt
+vagrant halt
+exit
+sudo apt update ^C
+sudo apt update
+sudo apt -y install tree
+tree
+man man 
+groups --help
+useradd --help
+vim --help
+man vim
+exit
+pwd
+ssh-keygen -t ed25519
+ls --help
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cat id_ed25519.pub | awk '{print $2}'
+cat id_ed25519.pub
+cd
+pwd
+mkdir repogit
+cd repogit
+git clone git@github.com:francoadrian/TP1_AySO.git
+ls -l
+cd TP1_AySO/
+pwd
+ls -l
+cat /etc/os-release
+grep --help
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+$.
+.$
+$?
+ls -l
+rm -f datos_usuario.txt
+ls
+echo "Usuario=$(whoami)" > datos_usuario.txt
+$?
+git add
+git add .
+git config --global user.email franco.a.perrotta@gmail.com
+git config --global user.name francoadrian
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cd..
+cd
+..
+cd /
+pwd
+ls -l
+cd proc
+ls -l
+cd cpuinfo
+cat cpuinfo
+cat cpuinfo | grep "model name"
+cat cpuinfo | grep "model name" | head -n1
+#cat cpuinfo | grep "model name" | head -n1 | 
+cat /repogit/TP1_AySO/datos_usuarios.txt
+cd
+pws
+pwd
+ls -l
+cd repogit
+ls
+cd TP1_AySO/
+ls
+cat /repogit/TP1_AySO/datos_usuarios.txt
+cd /
+cd proc
+cat /repogit/TP1_AySO/datos_usuarios.txt
+cat repogit/TP1_AySO/datos_usuarios.txt
+cat /home/vagrant/repogit/TP1_AySO/datos_usuarios.txt
+cat /home/vagrant/repogit/TP1_AySO/datos_usuario.txt
+cat cpuinfo | grep "model name" | head -n1 >> /home/vagrant/repogit/TP1_AySO/datos_usuario.txt
+$?
+cat /home/vagrant/repogit/TP1_AySO/datos_usuario.txt
+echo "feat: Añadiendo información de CPU" >> /home/vagrant/repogit/TP1_AySO/README.md
+cat /home/vagrant/repogit/TP1_AySO/README.md
+sed --help
+man sed
+cd
+cd repogit/TP1_AySO/
+ls
+sed -i 'feat' datos_usuario.txt
+sed -i "feat" datos_usuario.txt
+cat datos_usuario.txt 
+sed -i "feat" README.md 
+sed -i '3d' README.md 
+cat README.md 
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<FIN>> README.md
+Alumno: Franco Perrotta
+División: 313
+Turno: Noche
+FIN
+
+cat README.md
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
